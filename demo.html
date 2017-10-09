@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html  >
+<head>
+<meta charset="ISO-8859-1">
+<title>Welcome User</title>
+<link rel="stylesheet" href="index.css">
+
+</head>
+<body ng-app="app">
+<h1>Students Login Page</h1>
+<div id="class">
+<div id="login">
+<fieldset>
+<legend>Login</legend>
+<form action="login" method="post" name="myForm" >
+<table>
+<tr>
+<td><input type="text" name="user"
+placeholder="Username" onFocus="this.placeholder=''" onBlur="this.placeholder='Username'" id="t1" max="5" required></td>
+</tr>
+<tr><td><span style="color:red" >
+  </span></td></tr>
+<tr>
+<td><input type="password" 
+placeholder="Password" onFocus="this.placeholder=''" onBlur="this.placeholder='Password'" id="t2" name="pass" required></td>
+</tr>
+<tr><td><span></span></td></tr>
+<tr><td><span></span></td></tr>
+<tr>
+<td><input type="submit" value="Login" onclick="a()"></td>
+</tr>
+<tr>
+<td>Not a member?&nbsp;&nbsp;<a href="signup.html">SignUp</a></td>
+</tr>
+</table>
+</form>
+
+</fieldset>
+</div>
+</div>
+</body>
+</html>
